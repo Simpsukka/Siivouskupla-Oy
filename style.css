@@ -35,3 +35,7 @@ body {
 form {
     margin-top: 50px;
 }
+.rivi {
+    display: flex;
+    align-items: center; /* Kohdistaa kuvan ja tekstin keskelle pystysuunnassa */
+}
