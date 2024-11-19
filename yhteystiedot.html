@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yhteystiedot</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #e6f7ff;
+            color: #333;
+        }
+        header, footer {
+            background: #8ACDFA;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1, footer p {
+            margin: 60;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .contact-form {
+            margin: 25px auto;
+            width: 80%;
+            background: #f0f8ff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2 {
+            margin-top: 0;
+        }
+        .form-group {
+            margin-bottom: 18px;
+            text-align: center;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group textarea {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+        }
+        .form-group textarea {
+            resize: none;
+            height: 100px;
+        }
+        .submit-btn {
+            background: #09619c;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .submit-btn:hover {
+            background: #3399ff;
+        }
+        footer {
+            background: #8ACDFA;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+            position: fixed; /* Kiinnitetään alareunaan */
+            bottom: 0; /* Sijoitetaan alareunaan */
+            left: 0; /* Sijoitetaan vasempaan reunaan */
+            width: 100%; /* Footer venyy koko leveydelle */
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>YHTEYSTIEDOT</h1>
+</header>
+
+<div class="content">
+    <p><b>Ota meihin yhteyttä viestillä tai soita suoraan <br><br> asiakaspalveluun: 050 67 83 335</b>.</p>
+
+    <div class="contact-form">
+        <h2>LÄHETÄ VIESTI</h2>
+        <form action="#!" method="post">
+            <div class="form-group">
+                <label for="name">Nimi</label>
+                <input type="text" id="name" name="name" placeholder="SYÖTÄ NIMESI">
+            </div>
+            <div class="form-group">
+                <label for="email">Sähköpostiosoite</label>
+                <input type="email" id="email" name="email" placeholder="SYÖTÄ SÄHKÖPOSTIOSOITTEESI">
+            </div>
+            <div class="form-group">
+                <label for="message">Viesti</label>
+                <textarea id="message" name="message" placeholder="KIRJOITA VIESTISI"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Lähetä</button>
+
+        </form>
+        
+    </div>
+
+    <p><b>Ammattitaitoinen henkilökunta on koulutettu huolehtimaan kaikista yksityiskohdista, 
+        ja he tekevät työnsä aina hymyssä suin. Valitse meidät, kun haluat luotettavaa ja 
+        laadukasta siivouspalvelua, joka ylittää odotuksesi. Anna meidän huolehtia siivouksesta,
+        jotta voit keskittyä tärkeämpiin asioihin elämässäsi...</b></p>
+
+</div>
+
+<footer>
+    <p>© SiivousKupla-Oy. Yhtä kirkkaat hinnat kuin pinnat! </p>
+</footer>
+
+</body>
+</html>
