@@ -1,1 +1,61 @@
-<h1>´SiivousKupla on täällä!</h1>
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiivousKupla</title>
+    <meta name='googlebot' content='noindex'>
+    <meta name='robots' content='noindex'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>SiivousKupla</h1>
+    <nav>
+        <ul>
+            <li>Tuotteet</li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <h1>SiivousKupla Oy, Siivouspalveluita lähelläsi!</h1>
+    <h2>Tuotteemme</h2>
+    <h3>Täyspalvelu</h3>
+    <p>Sisältää lattioiden ja ikkunoiden pesun sekä tasojen ja kaappien päälisten pyyhkimisen pölystä.</p>
+    <h3>Lattioiden pesu</h3>
+    <h3>Ikkunoiden pesu</h3>
+
+
+    <form>
+        <label>Asunnon koko neliöinä</label>
+        <input type="text" id="koko" size="3">
+        <input type="button" id="painike" value="Laske Hinta" onclick="laskeHinta()">
+    </form>
+
+    <p id="vastaus"></p>
+
+    <script>
+        function laskeHinta() {
+            let koko = Number(document.getElementById('koko').value);
+            let hinta = '';
+
+            if (koko < 30) {
+                hinta = '100€-150€';
+            } else if (koko >= 30 && koko < 60) {
+                hinta = '150€-250€';
+            } else if (koko >= 60 && koko < 100) {
+                hinta = '250€-350€';
+            } else {
+                hinta = 'Hinnoittelu tarjouksen mukaan';
+            }
+
+
+            document.getElementById('vastaus').innerHTML = hinta;
+
+        }
+    </script>
+
+</body>
+
+</html>
