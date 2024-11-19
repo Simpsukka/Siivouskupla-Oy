@@ -4,7 +4,6 @@ Body {
     background-color: #F5F5F5;
     font-family: Verdana;
     margin: 40px 20px;
-    font-variant: small-caps;
 }
 
 header {
@@ -66,6 +65,7 @@ nav a {
     display: inline-block;
     border: 2px solid #8ACDFA;
     border-radius: 10px;
+    padding: 10px 20px;
 }
 nav a:hover {
     color: #8ACDFA;
