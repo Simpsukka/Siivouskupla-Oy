@@ -1,8 +1,82 @@
-
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #e6f7ff;
+            color: #333;
+        }
+        header {
+            background: #66ccff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #fff;
+        }
+        .menu-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu-icon:hover {
+            background: #ddd;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .content h2 {
+            margin-top: 0;
+        }
+        .paragraph-section {
+            margin: 20px auto;
+            width: 80%;
+            background: #f0f8ff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .bubble {
+            background: #cce7ff;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .cta {
+            margin: 20px auto;
+            padding: 20px;
+            background: #cce7ff;
+            border-radius: 10px;
+            text-align: center;
+            width: 80%;
+        }
+        .cta p {
+            margin: 0 0 10px;
+        }
+        .cta button {
+            background: #66ccff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cta button: hover {
+            background: #3399ff;
+        }
+    </style>//*
 Body {
     color:#8ACDFA ;
     background-color:#F5F5F5;
     font-family: Verdana;
     margin: 40px 20px;
 }
-
+*//
