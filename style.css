@@ -1,21 +1,22 @@
  
 Body {
     color:black ;
-    background-color:#F5F5F5;
+    background-color: #F5F5F5;
     font-family: Verdana;
     margin: 40px 20px;
     font-variant: small-caps;
 }
 
 header {
-    background: #8ACDFA;
+    
     padding: 10px;
     text-align: center;
 }
 
 header h1 {
     font-size: 32px;
-    color: #f5f5f5;
+    color: #F5F5F5;
+    text-shadow: 2px 2px #6e6e6e;
 }
 
 header h2 {
@@ -39,3 +40,30 @@ form {
     display: flex;
     align-items: center; /* Kohdistaa kuvan ja tekstin keskelle pystysuunnassa */
 }
+
+nav a {
+    background: #f5f5f562;
+    font-family: verdana;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #8ACDFA;
+    border-radius: 10px;
+}
+nav a:hover {
+    color: #8ACDFA;
+    background-color: #F5F5F5;
+}
+#valittu {
+    color: #8ACDFA;
+    background-color:#f5f5f5;
+}
+
+#etusivu {
+    background-image: url(/Kuvia/kuplia.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    height: 300px;
+    
+}
+
