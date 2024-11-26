@@ -4,7 +4,8 @@ Body {
     background-color: #F5F5F5;
     font-family: Verdana;
     margin: 40px 20px;
-    padding-bottom: 150px; /* Varmista, että sisällölle jää tilaa footerin alle */
+    padding-bottom: 80px; /* Varmista, että sisällölle jää tilaa footerin alle */
+
 }
 
 header {
