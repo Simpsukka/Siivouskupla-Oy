@@ -47,6 +47,7 @@ form {
 
 .button {
     display: inline-block;
+    width: 150px; /* Kiinteä leveys painikkeille */
     padding: 10px 20px;
     background-color: #8ACDFA;
     color: white;
