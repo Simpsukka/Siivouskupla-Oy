@@ -7,7 +7,15 @@ Body {
     font-family: Verdana;
     margin: 40px 20px;
     padding-bottom: 80px; /* Varmista, että sisällölle jää tilaa footerin alle */
+}
 
+.runkoteksti{
+    color:black ;
+    background-color: #F5F5F5;
+    font-family: Verdana;
+    margin: auto;
+    padding-bottom: 80px; /* Varmista, että sisällölle jää tilaa footerin alle */
+    width: 100%;
 }
 
 header {
@@ -243,6 +251,15 @@ form {
     
     }
     
+    .runkoteksti{
+        color:black ;
+        background-color: #F5F5F5;
+        font-family: Verdana;
+        margin: auto;
+        padding-bottom: 80px; /* Varmista, että sisällölle jää tilaa footerin alle */
+        width: 80%;
+    }
+
     header {
         
         padding: 10px;
@@ -484,6 +501,15 @@ form {
         
         }
         
+        .runkoteksti{
+            color:black ;
+            background-color: #F5F5F5;
+            font-family: Verdana;
+            margin: auto;
+            padding-bottom: 80px; /* Varmista, että sisällölle jää tilaa footerin alle */
+            width: 80%;
+        }
+
         header {
             
             padding: 10px;
