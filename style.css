@@ -62,6 +62,7 @@ form {
 
 .nappi {
     width: 135px;
+    padding: 2px;
 }
 
 .nappi:hover {
