@@ -305,8 +305,8 @@ input:hover {
     }
 
     .linkki {
-        margin-left: 100px;
-        width: 200ox;
+        margin-left: 92px;
+        width: 200px;
         margin-top: 10px;
     }
     
@@ -394,7 +394,7 @@ input:hover {
 
     .grid-container {
         display: grid;
-        grid-template-columns: 300px 400px;
+        grid-template-columns: 300px 375px;
         column-gap: 10px;
         justify-content: center;
     }
@@ -556,7 +556,7 @@ input:hover {
 
         .linkki {
             margin-top: 10px;
-            margin-left: 200px;
+            margin-left: 156px;
         }
     
         
@@ -644,7 +644,7 @@ input:hover {
     
         .grid-container {
             display: grid;
-            grid-template-columns: 700px 600px;
+            grid-template-columns: 600px 500px;
             column-gap: 10px;
             justify-content: center;
             font-size: 25px;
