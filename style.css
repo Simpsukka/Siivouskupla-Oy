@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 700px) { /*mobiilinäkymä*/
 
 
 Body {
@@ -42,6 +42,11 @@ form {
     height: 150px;
     border-radius: 10px;
     padding-left: 10px;
+}
+
+.linkki {
+    margin: auto;
+    text-align: center;
 }
 
 .rivi {
@@ -114,11 +119,53 @@ input {
     text-align: center;
 }    
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    justify-content: space-evenly;
+}
 
+.item1 {
+    grid-area: 1 / 1;
+    background-color: #8ACDFA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 20px;
+}
+
+.item2 {
+    grid-area: 2 / 1;
+    background-color: #8ACDFA;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.item3 {
+    grid-area: 3 / 1;
+}
+
+.item4 {
+    grid-area: 4 / 1;
+}
+
+.blogi {
+    text-align:left;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #6e6e6ea2;
+    background-color: #6e6e6e15;
+    color: #4fb6fa;
+    width: 300px;
+    font-size: 16px;
+    margin: auto;
+    font-style: italic;
+}
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) { /*tablettinäkymä*/
 
 
     Body {
@@ -164,10 +211,10 @@ input {
         height: 200px;
         border-radius: 10px;
         padding-left: 10px;
-        width: 400px;
+        width: 380px;
     }
 
-    form2 {
+    .linkki {
         margin-left: 100px;
         width: 200ox;
     }
@@ -247,6 +294,229 @@ input {
     label {
         font-size: 20px;
     }
-    
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 250px 400px;
+        column-gap: 10px;
+        justify-content: space-evenly;
+    }
+
+    .item1 {
+        grid-area: 1 / 1;
+        background-color: #8ACDFA;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .item2 {
+        grid-area: 2 / 1;
+        background-color: #8ACDFA;
+        padding: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .item3 {
+        grid-area: 1 / 2;
+    }
+
+    .item4 {
+        grid-area: 2 / 2;
+    }
+
+    .blogi {
+        text-align:left;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #6e6e6ea2;
+        background-color: #6e6e6e15;
+        color: #4fb6fa;
+        width: 600px;
+        font-size: 25px;
+        margin: auto;
+        font-style: italic;
+    }
     
     }
+
+@media screen and (min-width: 1200px) { /*tietokonenäkymä*/
+
+
+        Body {
+            color:black ;
+            background-color: #F5F5F5;
+            font-family: Verdana;
+            margin: 40px 20px;
+            padding-bottom: 80px; /* Varmista, että sisällölle jää tilaa footerin alle */
+        
+        }
+        
+        header {
+            
+            padding: 10px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 45px;
+            color: #F5F5F5;
+            text-shadow: 2px 2px #6e6e6e;
+            padding-top: 50px;
+        }
+        
+        header h2 {
+            margin-top: 5px;
+            font-size: 32px;
+            text-align: left;
+        }
+
+        header h3 {
+            margin-top: 100px;
+            font-size: 32px;
+        }
+        
+        body {
+            margin-top: 30px;
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 16px;
+            color: black;
+        }
+        
+        form {
+            padding-top: 10px;
+            margin-bottom: 50px;
+            background-color: #8ACDFA;
+            height: 250px;
+            border-radius: 10px;
+            padding-left: 10px;
+            width: 450px;
+        }
+
+        .linkki {
+            margin: 125px;
+        }
+    
+        
+        .rivi {
+            display: flex;
+            align-items: center; /* Kohdistaa kuvan ja tekstin keskelle pystysuunnassa */
+        }
+        
+        .button {
+            display: inline-block;
+            width: 150px; /* Kiinteä leveys painikkeille */
+            padding: 10px 20px;
+            background-color: #8ACDFA;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .button:hover {
+            background-color: #63B1E9;
+        }
+        
+        .footer {
+            background: #8ACDFA;
+            color: #f5f5f5;
+            text-align: center;
+            padding: 5px;
+            position: fixed; /* Kiinnitetään alareunaan */
+            bottom: 0; /* Sijoitetaan alareunaan */
+            left: 0; /* Sijoitetaan vasempaan reunaan */
+            width: 100%; /* Footer venyy koko leveydelle */
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        nav a {
+            background: #f5f5f562;
+            font-family: verdana;
+            font-weight: 700;
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+            border: 2px solid #8ACDFA;
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+        }
+        nav a:hover {
+            color: #8ACDFA;
+            background-color: #F5F5F5;
+        }
+        #valittu {
+            color: #8ACDFA;
+            background-color:#f5f5f5;
+        }
+        
+        #etusivu {
+            background-image: url(kuvat/kuplia.jpg);
+            border-radius: 20px;
+            background-size: cover;
+            height: 300px;
+            margin-bottom: 50px;
+        }
+        
+        input {
+            display: block;
+            float: inline-end;
+            margin-right: 10px;
+            background-color: #f5f5f5;
+            border-radius: 10px;
+            border: #8ACDFA;
+            text-align: center;
+            font-size: 25px;
+        }    
+        
+        label {
+            font-size: 25px;
+        }
+    
+        .grid-container {
+            display: grid;
+            grid-template-columns: 500px 600px;
+            column-gap: 10px;
+            justify-content: space-evenly;
+            font-size: 25px;
+        }
+
+        .item1 {
+            grid-area: 1 / 1;
+            background-color: #8ACDFA;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    
+        .item2 {
+            grid-area: 2 / 1;
+            background-color: #8ACDFA;
+            padding: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    
+        .item3 {
+            grid-area: 1 / 2;
+        }
+    
+        .item4 {
+            grid-area: 2 / 2;
+        }
+    
+        .blogi {
+            text-align:left;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid #6e6e6ea2;
+            background-color: #6e6e6e15;
+            color: #4fb6fa;
+            width: 1000px;
+            font-size: 25px;
+            margin: auto;
+            font-style: italic;
+        }
+        
+        }
