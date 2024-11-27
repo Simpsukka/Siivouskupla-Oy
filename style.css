@@ -478,6 +478,12 @@ input {
             text-align: center;
             font-size: 25px;
         }    
+
+        input:hover {
+            color: #19a3ff;
+            background-color: #ebebeb;
+            border: 2px solid #8f8f8f;
+        }
         
         label {
             font-size: 25px;
