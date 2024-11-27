@@ -125,6 +125,10 @@ nav a:hover {
     height: 270px;
 }
 
+.kuva {
+    border-radius: 20px;
+}
+
 input {
     display: block;
     float: inline-end;
@@ -369,6 +373,10 @@ input:hover {
         background-size: cover;
         height: 300px;
         margin-bottom: 50px;
+    }
+
+    .kuva {
+        border-radius: 20px;
     }
     
     input {
@@ -619,6 +627,10 @@ input:hover {
             background-size: cover;
             height: 300px;
             margin-bottom: 50px;
+        }
+
+        .kuva {
+            border-radius: 20px;
         }
         
         input {
