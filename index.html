@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SiivousKupla</title>
+    <title>SiivousKupla-Oy</title>
     <meta name='googlebot' content='noindex'>
     <meta name='robots' content='noindex'>
     <link rel="stylesheet" href="style.css">
@@ -22,6 +22,17 @@
 
     </nav>
 </header>
+
+<header>
+<h2>Meistä</h2>
+</header>
+
+ 
+    <p>SiivousKupla-Oy on vuonna 2024 perustettu jokaiselle elämää rakastavalle luotu siivouspalveluita tajoava yritys, jonka tavoitteena on mahdollistaa
+    kiireisimmillekin suomalaisille elämää myös työn ja koulun ulkopuolella. Meillä SiivousKuplalla uskotaan, että ihmisen mieliala vaihtelee sen mukaan, kuinka siisitä kotona on, ja
+    tämän vuoksi emme jätä hiukkastakaan likaa jälkeemme. Joten nosta sinä jalat pöydälle ja anna SiivousKuplan hoitaa homma!</p>
+        
+  
     
 <header> 
 <h2>Laske alustava hinta ja ota yhteyttä!</h2>
@@ -41,38 +52,45 @@
         <input type="text" id="huoneet" size="5">
         </p>
 
-        
+        <p>
         <input type="button" id="painike" value="Hae hinta-arvio" onclick="laskeHinta()">
+        </p>
         
-
-        <p id="vastaus"></p>
+        <p>
+        <output id="vastaus">
+        </p>
     </form>
 
    
-
     <script>
         function laskeHinta() {
-            let koko = Number(document.getElementById('koko').value);
-            let hinta = '';
+           
+            const koko = parseFloat(document.getElementById('koko').value);
+            const huoneet = parseInt(document.getElementById('huoneet').value);
 
-            if (koko < 30) {
-                hinta = '100€-150€';
-            } else if (koko >= 30 && koko < 60) {
-                hinta = '150€-250€';
-            } else if (koko >= 60 && koko < 100) {
-                hinta = '250€-350€';
-            } else {
-                hinta = 'Hinnoittelu tarjouksen mukaan';
+           
+            if (isNaN(koko) || isNaN(huoneet) || koko <= 0 || huoneet <= 0) {
+                document.getElementById('tulos').textContent = 'Anna kelvolliset arvot.';
+                return;
             }
 
+            
+            const hintaPerM2 = 2.5;
+            const hintaPerHuone = 10;
 
-            document.getElementById('vastaus').innerHTML = hinta;
+            
+            const hinta = (koko * hintaPerM2) + (huoneet * hintaPerHuone);
 
+            
+            document.getElementById('vastaus').innerHTML = '<label>Siivouksen hinta on noin ' + hinta.toFixed(2) + '€</label>';
         }
     </script>
 
+    <form2><a href="yhteystiedot.html" class="button">PYYDÄ TARJOUS</a></form2>
+</body>
 
-<footer>
+
+<footer class = 'footer'>
     <p>© SiivousKupla-Oy. Yhtä kirkkaat hinnat kuin pinnat! </p>
 </footer>
 
