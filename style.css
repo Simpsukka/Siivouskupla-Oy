@@ -146,6 +146,7 @@ input {
     border: #8ACDFA;
     text-align: center;
     font-size: 16px;
+    width: 80px;
 }    
 
 input:hover {
@@ -410,6 +411,7 @@ label {
         border: #8ACDFA;
         text-align: center;
         font-size: 16px;
+        width: 80px;
     }    
 
     input:hover {
@@ -675,6 +677,7 @@ label {
             border: #8ACDFA;
             text-align: center;
             font-size: 20px;
+            width: 80px;
         }    
 
         input:hover {
