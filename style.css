@@ -595,6 +595,7 @@ label {
         
         .button:hover {
             background-color: #63B1E9;
+            cursor: pointer;
         }
         
         .footer {
