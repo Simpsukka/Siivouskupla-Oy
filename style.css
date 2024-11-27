@@ -25,18 +25,18 @@ header {
 }
 
 header h1 {
-    font-size: 25px;
+    font-size: 32px;
     color: #F5F5F5;
     text-shadow: 2px 2px #6e6e6e;
 }
 
 header h2 {
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 header h3 {
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 50px;
 }
 
@@ -55,7 +55,7 @@ form {
     height: 150px;
     border-radius: 10px;
     padding-left: 10px;
-    width: 90%;
+    width: 98%;
     margin: auto;
     height: 85%;
 }
@@ -137,12 +137,17 @@ input {
     border-radius: 10px;
     border: #8ACDFA;
     text-align: center;
+    font-size: 16px;
 }    
 
 input:hover {
     color: #19a3ff;
     background-color: #ebebeb;
     border: 2px solid #8f8f8f;
+}
+
+label {
+    font-size: 16px;
 }
 
 .grid-container {
@@ -305,6 +310,7 @@ input:hover {
         width: 90%;
         margin: auto;
         height: 85%;
+        font-size: 16px;
     }
 
     .linkki {
@@ -386,7 +392,7 @@ input:hover {
         border-radius: 10px;
         border: #8ACDFA;
         text-align: center;
-        font-size: 20px;
+        font-size: 16px;
     }    
 
     input:hover {
@@ -396,7 +402,7 @@ input:hover {
     }
     
     label {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .grid-container {
@@ -437,7 +443,7 @@ input:hover {
         background-color: #6e6e6e15;
         color: #4fb6fa;
         width: 600px;
-        font-size: 18px;
+        font-size: 16px;
         margin: auto;
         font-style: italic;
     }
@@ -537,14 +543,14 @@ input:hover {
 
         header h3 {
             margin-top: 100px;
-            font-size: 32px;
+            font-size: 30px;
         }
         
         body {
             margin-top: 30px;
             margin-left: 30px;
             margin-right: 30px;
-            font-size: 16px;
+            font-size: 20px;
             color: black;
         }
         
@@ -640,17 +646,17 @@ input:hover {
             border-radius: 10px;
             border: #8ACDFA;
             text-align: center;
-            font-size: 25px;
         }    
 
         input:hover {
             color: #19a3ff;
             background-color: #ebebeb;
             border: 2px solid #8f8f8f;
+            font-size: 20px;
         }
         
         label {
-            font-size: 25px;
+            font-size: 20px;
         }
     
         .grid-container {
@@ -658,7 +664,7 @@ input:hover {
             grid-template-columns: 600px 500px;
             column-gap: 10px;
             justify-content: center;
-            font-size: 25px;
+            font-size: 20px;
         }
 
         .item1 {
@@ -692,7 +698,7 @@ input:hover {
             background-color: #6e6e6e15;
             color: #4fb6fa;
             width: 1000px;
-            font-size: 25px;
+            font-size: 20px;
             margin: auto;
             font-style: italic;
         }
