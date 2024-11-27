@@ -228,6 +228,7 @@ label {
     resize: none;
     height: 100px;
     margin: auto;
+    margin-right: 2.5%;
 }
 .submit-btn {
     background: #09619c;
@@ -459,7 +460,7 @@ label {
         padding: 20px;
         border-radius: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        height: 440px;
+        height: 450px;
     }
     .contact-form h2 {
         margin-top: 0;
@@ -470,19 +471,22 @@ label {
     }
     .form-group label {
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         font-weight: bold;
     }
     .form-group input, .form-group textarea {
         width: 90%;
         padding: 10px;
+        margin-bottom: 10px;
         border: 1px solid #ccc;
         border-radius: 15px;
+        margin-right: 3.5%;
     }
     .form-group textarea {
         resize: none;
         height: 100px;
         margin: auto;
+        margin-right: 1%;
     }
     .submit-btn {
         background: #09619c;
@@ -591,6 +595,7 @@ label {
         
         .button:hover {
             background-color: #63B1E9;
+            cursor: pointer;
         }
         
         .footer {
@@ -646,6 +651,7 @@ label {
             border-radius: 10px;
             border: #8ACDFA;
             text-align: center;
+            font-size: 20px;
         }    
 
         input:hover {
@@ -654,7 +660,8 @@ label {
             border: 2px solid #8f8f8f;
             font-size: 20px;
         }
-        
+
+
         label {
             font-size: 20px;
         }
@@ -705,7 +712,6 @@ label {
 
         .content {
             text-align: center;
-            padding: 20px;
         }
         .contact-form {
             margin: 25px auto;
@@ -714,13 +720,13 @@ label {
             padding: 20px;
             border-radius: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            height: 480px;
+            height: 560px;
         }
         .contact-form h2 {
             margin-top: 0;
         }
         .form-group {
-            margin-bottom: 18px;
+            margin-bottom: 70px;
             text-align: center;
         }
         .form-group label {
@@ -733,11 +739,14 @@ label {
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 15px;
+            margin-right: 5%;
+            margin-left: 5%;
         }
         .form-group textarea {
             resize: none;
             height: 100px;
             margin: auto;
+            margin-right: 2%;
         }
         .submit-btn {
             background: #09619c;
